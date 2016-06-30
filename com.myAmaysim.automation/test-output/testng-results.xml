@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69855" started-at="2016-06-30T23:01:57Z" finished-at="2016-06-30T23:03:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69855" started-at="2016-06-30T23:01:57Z" finished-at="2016-06-30T23:03:07Z">
+      <class name="com.myAmaysim.tests.MySettingsTestcases">
+        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="initializeTestBaseSetup" is-config="true" duration-ms="13098" started-at="2016-07-01T09:01:57Z" finished-at="2016-07-01T09:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="setUp" is-config="true" duration-ms="0" started-at="2016-07-01T09:02:10Z" finished-at="2016-07-01T09:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCallForwardEnable()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="verifyCallForwardEnable" duration-ms="22568" started-at="2016-07-01T09:02:10Z" finished-at="2016-07-01T09:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCallForwardEnable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="tearDown" is-config="true" duration-ms="156" started-at="2016-07-01T09:02:33Z" finished-at="2016-07-01T09:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="initializeTestBaseSetup()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="initializeTestBaseSetup" is-config="true" duration-ms="9836" started-at="2016-07-01T09:02:33Z" finished-at="2016-07-01T09:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="setUp" is-config="true" duration-ms="1" started-at="2016-07-01T09:02:43Z" finished-at="2016-07-01T09:02:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyCallForwardDisable()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="verifyCallForwardDisable" duration-ms="24031" started-at="2016-07-01T09:02:43Z" depends-on-methods="com.myAmaysim.tests.MySettingsTestcases.verifyCallForwardEnable" finished-at="2016-07-01T09:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCallForwardDisable -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.myAmaysim.tests.MySettingsTestcases@6e0d2a4e]" name="tearDown" is-config="true" duration-ms="78" started-at="2016-07-01T09:03:07Z" finished-at="2016-07-01T09:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.myAmaysim.tests.MySettingsTestcases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
