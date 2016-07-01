@@ -22,5 +22,11 @@ and input test data configured.Tests configured to run on Chrome.
 
 MySettingsTestcases.java
 
+### Assumption ##
+The test user has callforward disabled 
+
+##TestData##
+Test data is  taken in GetTestData.java class.
+
 ### Dependency ###
 All the dependency like  ChromeDriver.exe are bundled in lib/ dir
